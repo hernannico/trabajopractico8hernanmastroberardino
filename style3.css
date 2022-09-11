@@ -1,0 +1,180 @@
+#Texto1{
+    width:80%;
+    float: left;
+    font-family:Verdana;
+    font-size:150%;
+    text-align:justify;
+    } 
+    
+    #p_texto1{
+    text-align:right;
+    margin-bottom:2em;}
+    
+    .imagen1{
+        border-radius: 50%;
+        
+    }
+
+    #imagen1{
+float: right;
+
+    grid-row: 1;
+    grid-column: 6/6;
+position: relative;
+z-index: 2;
+   
+   
+}
+    #separacion{
+    clear:both;
+    }
+.textomascota{ 
+   position: absolute;
+    text-align: right;
+margin-left: 200px;
+margin-bottom: 200px;
+
+}
+    #texto2{
+        width:75%;
+        float:left;
+        font-size:200%;
+        text-align:justify;
+        }
+        #p_texto2{
+        text-align:center;
+        }
+        #imagen2{
+        width:25%;
+    
+        
+        }
+       .imagen2{
+
+        width: 100px;
+        height: 200px;
+       float: left;
+       margin-right: 20px;}
+
+    .header{ display: grid;
+        background-color: gray;
+        height: 150px;
+        width: 97%;   
+        border-radius: 10px;   
+        border-style: solid;
+        padding: 20px;  
+        border-color: yellow;
+    }
+
+   
+.main { width: 72%;
+    height: 160%;
+z-index: 1;
+    border-style: solid;
+border-color: yellow;
+margin-left: 25%;
+position: absolute;
+margin-top: 30px;
+margin-right: 30px;
+border-radius: 10px;
+background-color: gray;
+
+}   
+ .aside{
+    border-style: solid;
+    border-color: yellow;
+ width: 23%;
+height: 310px;
+margin-top: 90px;
+border-radius: 10px;
+background-color: gray;
+}
+
+.galeria{ display: grid;
+position: absolute;
+margin-top: 150px;
+}
+.foto1{ 
+    grid-column: 1;
+    grid-row: 2;
+    margin-right: 50px;
+margin-bottom: 50px;
+margin-left: 25px;
+}
+.foto2{ 
+    grid-column: 2;
+    grid-row: 2;
+margin-right: 50px;
+}
+
+.foto3 { 
+grid-column: 3;
+grid-row: 2;
+}
+.foto4{ 
+ grid-column: 1;
+ grid-row: 3;   
+margin-left: 25px;
+margin-bottom: 50px;
+}
+.foto5{ 
+    grid-column: 2;
+    grid-row: 3;   
+   }
+   .foto6{ 
+    grid-column: 3;
+    grid-row: 3;   
+   margin-right: 25px;
+}
+   .foto7{ 
+    grid-column: 1;
+    grid-row: 4;   
+   margin-left: 25px;
+}
+   .foto8{ 
+    grid-column: 2;
+    grid-row: 4;   
+   }
+   .foto9{ 
+    grid-column: 3;
+    grid-row: 4;   
+   margin-right: 25px;
+}
+.parrafo{ background-color: yellowgreen;
+     padding: 10px;
+
+    }
+
+    .tabla{ 
+    position: absolute;
+    z-index: 3;
+    margin-top: 100px;
+    margin-left: 700px;
+background-color: bisque;
+}
+    .inicio{ 
+        grid-row: 1;
+        grid-column: 1;
+   margin-right: 100px;
+    margin-bottom: 50px;
+}
+    .galeria{ 
+        grid-row: 2;
+        grid-column: 1;   
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+    .comentarios{ 
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    .boton:hover { background-color:white;}
+.boton{ background-color: gray;}
+.form{ background-color:yellowgreen; margin-top: 50px; width: 300px; margin-left: 100px;}
+form{ text-align: center; margin: auto; width: 10px;}
+.boton:active {background-color: blue;}
+
+body {
+    background-color: black;
+}
